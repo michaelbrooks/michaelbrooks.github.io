@@ -1,0 +1,87 @@
+body {
+    font-family: "Segoe UI", Frutiger, Arial, Helvetica, sans-serif;
+}
+
+.plainbox {
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+.container {
+    position: relative;
+}
+
+#graphic {
+    background-image: url("../images/nielsen.png");
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 439px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.highlight {
+    background-color: #fff6bf;
+}
+
+#corpus_selector {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#corpus_selection_form{
+    margin-bottom: 0px;
+}
+
+#corpus_submit {
+    margin-left: 20px;
+}
+
+#chat_form {
+    margin-bottom:1.5em;
+/*    margin-top:2em;*/
+    position: relative;
+    float: left;
+}
+
+.deemphasize {
+    color: gray;
+}
+
+#record {
+    border: 1px solid lightgray;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll; 
+    position: relative;
+}
+
+#chat_input {
+    height: 100px;
+    resize: vertical;
+}
+
+#instructions {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-top: 28px;
+}
+
+#send_button {
+    padding: 5px 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.outof {
+    font-style: italic;
+    color: gray;
+    display:none;
+}
+
+#typing {
+    font-style: italic;
+    color: gray;
+}

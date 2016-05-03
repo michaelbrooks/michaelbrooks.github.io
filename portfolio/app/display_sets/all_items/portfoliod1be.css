@@ -1,0 +1,273 @@
+/** Reset Theme Styles **/
+a img {
+    border: none;
+    padding: 0;
+}
+#wrapper {
+    float: left;
+}
+
+/** Override fancybox stupidness **/
+.fancybox-lock body {
+    overflow: initial !important;
+}
+
+.portfolio {
+    margin: 0 auto;
+    width: 790px;
+    display:block;
+}
+
+.portfolio:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+.pf-display-set {
+    position: relative;
+    margin: 0px;
+    width: 790px;
+    float:left;
+}
+
+.pf-items {
+    float:left;
+    width:100%;
+}
+
+.pf-category {
+    float: left;
+    width:100%;
+    clear:both;
+    position: relative;
+}
+
+.pf-items > .pf-category {
+    margin-bottom: 20px;
+}
+
+.pf-category .pf-category {
+    /*    border-bottom: 1px solid lightgray;*/
+    margin-bottom: 20px;
+    padding: 6px 0;
+}
+
+.pf-category .pf-category > h3 {
+    font-size:2.5em;
+    margin: 6px 0 0 0;
+    position: absolute;
+    width: 200px;
+    left: -220px;
+    text-align: right;
+}
+
+.pf-item {
+    position: relative;
+    display:block;
+    float: left;
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+
+/*.pf-item:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+}*/
+
+.pf-item .pf-item-title {
+    font-size:1.2em;
+    line-height:1.5em;
+    margin-bottom:0;
+    margin-top: 0.5em;
+    text-align: center;
+    
+}
+
+#content a.pf-boxlink {
+    text-decoration: none;
+}
+
+.pf-item .pf-item-text {
+    float: left;
+    width:170px;
+    clear: both;
+}
+
+.pf-item .pf-item-image {
+    float: left;
+    padding: 3px;
+    -webkit-box-shadow: 0 0 3px #53824F;
+    -moz-box-shadow: 0 0 3px #53824F;
+    box-shadow: 0 0 3px #53824F;
+    background-color: white;
+}
+
+.pf-item .pf-item-image .pf-image-clip {
+    width: 130px;
+    height: 98px;
+    
+    width: 170px;
+    height: 120px;
+    
+    overflow: hidden;
+}
+
+.pf-item .pf-item-image img {
+    display: block;
+}
+
+.pf-large-item {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 818px;
+}
+
+.pf-large-item .pf-item-left-panel {
+    float:left;
+    margin-right: 15px;
+}
+
+
+.pf-large-item .pf-item-image {
+    float: left;
+    padding: 3px;
+    border: 1px solid #A9C0A7;
+    background-color:white;
+}
+
+.pf-large-item .pf-item-image .pf-image-clip {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.pf-large-item .pf-item-text {
+    width: 395px;
+    float:left;
+}
+
+.pf-large-item .pf-item-title {
+    font-size:1.5em;
+    line-height:1.3em;
+    margin-bottom: 10px;
+    margin-top: 0.5em;
+}
+
+.pf-large-item .pf-item-meta {
+    font-style:italic;
+    color: gray;
+    clear: both;
+}
+
+.pf-large-item .pf-item-desc {
+    clear: both;
+}
+
+.pf-large-item .pf-item-links {
+    float:left;
+    clear: both;
+    margin-top: 10px;
+    font-size: 1.2em;
+    width: 400px;
+}
+
+.pf-large-item .pf-item-links div {
+    float:left;
+    margin: 0 10px;
+}
+
+.pf-large-item .pf-item-links div.pf-link-class-pdf a {
+    background-image: url("images/pdf_logo.gif");
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.pf-large-item .pf-item-links div.pf-link-class-more a {
+    background-image: url("images/ext_link.gif");
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}
+
+.pf-large-item .pf-item-links div.pf-link-class-demo a {
+    background-image: url("images/gear_16.png");
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.pf-large-item .pf-item-links div.pf-link-class-source a {
+    background-image: url("images/number.png");
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}
+
+.pf-large-item .pf-item-links div.pf-link-class-video a {
+    background-image: url("images/icon-video.png");
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+
+
+.pf-tags-wrapper {
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: -170px;
+    width: 150px;
+}
+
+.pf-tags {
+    margin-top:10px;
+    float: left;
+    width: 150px;
+    border: 1px solid lightgray;
+}
+
+.pf-tags.fixed {
+    position:fixed;
+    top:0;
+}
+
+.pf-tags-label {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.pf-tags h2 {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.pf-tags-group {
+    padding: 10px;
+    text-align: center;
+}
+
+.pf-tags-label.pf-highlight {
+    /*background-color: #53824F;*/
+    color: #3D6B39;
+    background-color: #DDEDDB
+}
+
+.pf-item.pf-highlight h2 {
+    /*border-color: gray;*/
+    /*background-color: #53824F;*/
+    color: #3D6B39;
+}
+
+.pf-item.pf-highlight .pf-item-image {
+    -webkit-box-shadow: 0 0 14px #31832A;
+    -moz-box-shadow: 0 0 14px #31832A;
+    box-shadow: 0 0 14px #31832A;
+}

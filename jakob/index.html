@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from students.washington.edu/mjbrooks/jakob/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Apr 2016 03:36:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <title>Synthetic Interview</title>
+        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">    
+        <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/interview.js"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-7637535-10']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+    </head>
+
+    <body>
+
+        <div class="container prepend-top">
+            <h1>An Interview with Jakob Nielsen</h1>
+            <div id="corpus_selection_form" class="plainbox span-15 deemphasize">
+                <p>This application uses natural language processing and information retrieval techniques to 
+                    simulate a conversation with Jakob Nielsen, based on his
+					<a href="http://www.useit.com/alertbox">Alertbox</a> columns from 1995 to 2011.</p>
+                <!--                <form method="get">
+                                    <label for="corpus_selector">1. Select the interview data</label>
+                                    <select name="corpus_id" id="corpus_selector">
+                <option value='18'selected="selected">Jakob Nielsen's Alertbox</option>                                    </select>
+                                    <input type="submit" value="Submit" id="corpus_submit"/>
+                                </form>-->
+            </div>
+            <div id="chat_form" class="plainbox ">
+                <div id="record" class="span-14 last append-bottom">
+
+                </div>
+                <div class="span-15">
+                                            <input id="corpus_id" type="hidden" value="18"/>
+                                        <label for="chat_input">Ask questions:</label><br />
+                    <textarea id="chat_input" class="span-14" ></textarea><br />
+                    <input type="button" id="send_button" value="Send"/>
+                </div>
+                <div id="instructions" class="span-9 last">
+                    <p>Type questions in the box on the left. Press Enter or the Send button to send the message.</p>
+                    <p>If you would like to continue hearing about a topic, try asking a short question like <i>mhm?</i> or simply <i>?</i></p>
+                    <p class="small">
+                        <i>Note: Does not actually contain Jakob Nielsen.</i><br />
+                        Built by <a href="http://students.washington.edu/mjbrooks">Michael Brooks</a><br />
+                        "Art" by <a href="http://www.cs.washington.edu/homes/kuksenok/">Katie Kuksenok</a></p>
+                </div>
+                                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            var who = 'Jakob Nielsen';
+                            var intro = 'Hello, I&#039;m Jakob Nielsen. I&#039;m an expert on web usability. Ask me questions about usability, user research, methods, HCI, design, technology, or specific products and companies. I love imparting my wisdom upon the world, so fire away!';
+                            var message = '<p><span class="name">' + who + '</span>: ' + intro + '</p>';
+                            $('#record').append(message);
+                        });
+                    </script>
+                            </div>
+            <div id="graphic"></div>
+        </div>
+    </body>
+
+<!-- Mirrored from students.washington.edu/mjbrooks/jakob/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Apr 2016 03:37:04 GMT -->
+</html>
